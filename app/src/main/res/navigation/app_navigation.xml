@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.mvi.presentation.home.HomeFragment"
+        android:label="activity_host"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_shareFragment"
+            app:destination="@id/shareFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/postViewFragment"
+        android:name="com.example.mvi.presentation.post.PostViewFragment"
+        android:label="PostViewFragment" >
+        <action
+            android:id="@+id/action_postViewFragment_to_shareFragment"
+            app:destination="@id/shareFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/shareFragment"
+        android:name="com.example.mvi.presentation.share.ShareFragment"
+        android:label="fragment_share"
+        tools:layout="@layout/fragment_share" />
+</navigation>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">mvi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="retry">Retry</string>
+    <string name="share">share</string>
+    <string name="cover">cover</string>
+
+    <string name="something">Something went wrong, Please try again</string>
+    <string name="permission">Permission is required!</string>
+</resources>
