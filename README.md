@@ -4,10 +4,10 @@
 - Clean architecture 
 - ViewBinding 
 - Dependency injection (Koin)
-- retrofit2
+- Retrofit2
 - Kotlin coroutines
 - Exoplayer
-- ffmpeg
+- Ffmpeg
 
 
 ## Just clone the project, build and run the project!
